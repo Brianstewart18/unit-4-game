@@ -1,0 +1,96 @@
+body {
+    background-image: url("../images/wormz.png");
+}
+.title {
+    background-color: orange;
+    color: white;
+    font-size: 2.25rem;
+    height: 4rem;
+    text-align: center;
+    margin-right: 95rem;
+    padding-top: 2rem;
+    font-weight: 650;
+}
+div.instructions {
+    height: 19rem;
+    margin-right: 60rem;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    background-color: bisque;
+    color: darkgreen;
+    font-weight: 530;
+}
+.magicNumber {
+    background-color: #4CAF50;
+    color: mediumpurple;
+    font-size: 2.25rem;
+    height: 5rem;
+    text-align: center;
+    margin: 10.5rem 1rem 0rem 0rem;
+    padding-top: 2rem;
+    font-weight: 650;
+    width: 18.55rem;
+    position: absolute;
+}
+.winLossContainer {
+    background-color: lightskyblue;
+    color: #3F51B5;
+    font-size: 2.25rem;
+    height: 5.5rem;
+    text-align: center;
+    margin: 10.5rem 0rem 0rem 0rem;
+    padding-top: 1.5rem;
+    font-weight: 650;
+    width: 18.55rem;
+    display: flex;
+    /* justify-content: space-evenly; */
+    float: left;
+    position: absolute;
+    left: 19rem;
+}
+.wins{
+    position: absolute;
+    margin-left: 1.5rem;
+}
+.losses {
+    position: absolute;
+    margin-left: 10.8rem;
+    margin-right: 1.5rem;
+}
+.score {
+    background-color: #009688;
+    color: white;
+    font-size: 1.5rem;
+    height: 8.4rem;
+    text-align: center;
+    margin: .5rem 1rem 1rem 1rem;
+    padding-top: 1rem;
+    font-weight: 650;
+    width: 10rem;
+    float: left;
+    justify-content: center;
+}
+.crystal1 {
+    float: left;
+    margin-top: .25rem;
+}
+.crystal2 {
+    float: left;
+    margin-top: .25rem;
+}
+.crystal3 {
+    float: left;
+    margin-top: .25rem;
+}
+.crystal4 {
+    float: left;
+    margin-top: .25rem;
+}
+.winsCounter {
+    position: absolute;
+    margin-left: 2rem;
+}
+.lossesCounter {
+    position: absolute;
+    margin-left: 2.5rem;
+}

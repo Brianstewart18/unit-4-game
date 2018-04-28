@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!--CSS reset-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+        <!--CSS style sheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+      <!-- JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>S
+    <h1 class="title">Crystals Collector!</h1>
+    <div class="instructions">
+       <p>You will be given a random number at the start of the game</p> 
+       <br><br>
+       <p>There are four crystals below. by clicking on a crystal you will add a specific amount of points to your total score.</p>
+       <br><br>
+       <p>You win the game by matching your total score to a randomly generated number. You lose the game if your total score goes above the random number.</p>
+       <br><br>
+       <p>the value of each cryustal is hidden from you until you click on it</p>
+       <br><br>
+       <p>Each time when the game starts, the game will change the value of each crystal</p>
+    </div>
+        <!--number player has to reach to win-->
+        <div class="crystal1"><img src="assets/images/red.jpg" alt="red" height="150" width="150" class="crystal1"></div>
+        <div class="crystal2"><img src="assets/images/green.png" alt="green" height="150" width="150" class="crystal2"></div>
+        <div class="crystal3"><img src="assets/images/blue.jpg" alt="blue" height="150" width="150" class="crystal3"></div>
+        <div class="crystal4"><img src="assets/images/yellow.jpg" alt="yellow" height="150" width="150" class="crystal4"></div>
+            <div class="score">Your total score is:
+                    <div class="sCounter">
+                        #
+                    </div>
+                </div>
+        <div class="magicNumber">
+            <div class="mNumber"></div>
+        </div>
+        <!--container housing wins and loses-->
+        <span class="winLossContainer">
+            <div class="wins"> Wins 
+                <div class="winsCounter">#</div>
+            </div>
+            <div class="losses">Losses
+                <div class="lossesCounter">#</div>
+            </div>
+        </span>
+ 
+
+<script src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>
